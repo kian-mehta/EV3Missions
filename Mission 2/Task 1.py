@@ -1,5 +1,5 @@
 sensor = ev3_ultrasonicSensor()
 while(True):
-    rfl = ev3_reflectedLightIntensity(sensor)
-    print(rfl)
+    dist = ev3_ultrasonicSensorDistance(sensor)/10
+    print(dist)
     ev3_pause(1000)
