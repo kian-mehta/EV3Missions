@@ -1,5 +1,3 @@
-# NOT TESTED DO NOT SUBMIT
-
 motorB = ev3_motorB()
 motorC = ev3_motorC()
 
@@ -37,8 +35,6 @@ def turn_right():
     
 threshold1 = 10
 threshold2 = 20
-reverseDistance = 30
-
 
 sensor = ev3_ultrasonicSensor()
 
